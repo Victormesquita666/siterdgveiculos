@@ -1,0 +1,205 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+footer {
+  background-color: rgb(253, 240, 7);
+  color: #fff;
+  padding: 20px; 
+
+  
+
+}
+.titulo{
+    position: absolute; 
+    left: 160px; 
+    top: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(16, 2, 2);
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0px;
+  
+  display: flex;
+  justify-self: right;
+  gap: 70px;
+}
+
+.footer-links li a {
+  color: #000000;
+  text-decoration: none; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+ 
+  display: inline-block; 
+}
+.footer-links li a:hover {
+  color: #fcfefd;
+  text-decoration: underline;
+} 
+.logo{  
+  position: absolute;
+  top: 3px;
+  left: 50px;
+  width: 300px;
+  width: 80%;       /* 80% da largura da tela/pai */
+  max-width: 85px; /* Nunca ultrapassa 600px */
+  height: auto; 
+  border-radius: 30px;
+  
+} 
+
+hr{
+  margin-top: 25%;
+  height:7px ;
+  background-color: #000;
+  border: none;
+  
+}
+
+.linha{ 
+  border: none;
+  height: 9px;
+  background-color: #141313;
+  margin: 0%;
+} 
+.tela_fundo {
+  
+  position: relative
+}
+
+.carousel-container { 
+
+  position: relative;
+  width: 950px;
+  height: 450px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #000; 
+  position: absolute;
+  top: 5px;
+  right: 320px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* padrão, pode mudar individualmente */
+  transition: all 0.3s ease;
+} 
+.carousel-image3 {
+
+  width: 50%;
+  height: 10%;
+   /* padrão, pode mudar individualmente */
+  transition: all 0.3s ease;
+}
+
+  
+.container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px; 
+      margin-top: 10px;
+
+      
+      
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column; 
+      width: 300px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 25px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #e60000;
+    }
+
+    .btn {
+      margin-top: auto;
+      padding: 5px;
+      background: #0bca04;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #333;
+    } 
+    .top{ 
+       margin-top: 0%; 
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+
+    }
+        /* novo  */
+    .carrossel {
+     position: relative;
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #000; 
+  position: absolute;
+  top: 7px;
+  right: 500px;
+    }
+
+    .slides {
+      display: flex;
+      width: calc(600px * 5); /* 4 imagens */
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 600px;
+      height: 350px;
+      object-fit: cover;
+    } 
+    
+    
